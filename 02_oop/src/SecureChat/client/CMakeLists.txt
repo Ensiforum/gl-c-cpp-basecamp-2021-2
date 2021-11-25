@@ -17,6 +17,12 @@ add_executable(Client
             createchatform.h
             createchatform.cpp
             createchatform.ui
+            loginform.h
+            loginform.cpp
+            loginform.ui
+            signupform.h
+            signupform.cpp
+            signupform.ui
             res.qrc)
 
 target_include_directories(Client
