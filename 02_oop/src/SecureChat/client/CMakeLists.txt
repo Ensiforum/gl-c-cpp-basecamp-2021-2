@@ -31,7 +31,7 @@ target_include_directories(Client
 
 target_link_libraries(Client
                     PUBLIC
-                            #[[Network]]
+                            Network
                             Qt5::Core
                             Qt5::Widgets
                             Qt5::Gui
