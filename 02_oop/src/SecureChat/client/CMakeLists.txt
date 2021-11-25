@@ -13,7 +13,8 @@ add_executable(Client
             client.cpp
             mainwindow.h
             mainwindow.cpp
-            mainwindow.ui)
+            mainwindow.ui
+            res.qrc)
 
 target_include_directories(Client
             PRIVATE
